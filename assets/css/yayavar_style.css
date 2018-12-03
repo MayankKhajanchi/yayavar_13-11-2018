@@ -1,0 +1,199 @@
+/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Racing Sans One', cursive;
+font-family: 'Averia Sans Libre', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Cookie', cursive;
+font-family: 'Merienda', cursive;*/
+
+.pagetitle{
+	font-family: 'Merienda', cursive;
+	font-weight: bolder;
+	font-size: 24px;
+}
+.nav-item{
+	width: 100%;
+	text-align: center;
+}
+.navbar-nav{
+	width: 100%;
+}
+.nav-arrow .fa-arrow:hover{
+	background: #666666;
+	transition: background 0.2s linear 0s;
+	border: 2px solid #fff;
+}
+.carousel-image{
+	height: auto;
+	width: 100%;
+}
+.carousel-caption{
+	height: 100%;
+	padding-top: 25%;
+}
+#title{
+	font-size: 50px;	
+	font-family: 'Cookie', cursive;
+}
+#catchy_line{
+	font-family: 'Averia Sans Libre', cursive;
+	font-size: 20px;
+}
+#intro{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14px;
+	padding: 15px;
+	background: lightgrey;
+}
+#intro .btn{
+	width: 100%;
+}
+#what .col-md-12{
+	font-size: 40px;
+}
+#what span{
+	padding-top: 10px;
+	font-size: 35px;
+}
+#menu {
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+#menu{
+	overflow: hidden;
+}
+#menu img {
+    width: 250px;
+    height: 255px;
+    padding: 0px 5px 0px 5px;
+}
+.headfont{
+	font-family: 'Averia Sans Libre', cursive;
+}
+.headfont2{
+	font-family: 'Open Sans', sans-serif;
+}
+.zoomin{
+	border: 1px solid black;
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	overflow: hidden;
+}
+.zoomin:hover img{
+	transform: scale(1.1, 1.1);
+}
+.zoomin img{
+	transition-property: transform;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+    height: 450px;
+}
+.zoomin p{
+	text-align: center;
+}
+.blog:hover {
+    cursor: pointer;
+    height:450px;
+    width: 350px;
+}
+.music:hover {
+    cursor: pointer;
+    height:450px;
+    width: 350px;
+}
+.upcoming{
+	border: 2px solid black;
+	height: 395px;
+	margin-left: 25px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+.projects:hover {
+    cursor: pointer;
+    height:450px;
+    width: 350px;
+}
+
+.bio:hover {
+    cursor: pointer;
+    height:450px;
+    width: 350px;
+}
+.fa-surprise{
+	color: maroon;
+}
+.fa-smile-beam{
+	color: green;
+}
+.fa-grin-stars{
+	color: indigo;
+}
+.fa-facebook-square:hover{
+	color: #3B5998;
+}
+.fa-instagram:hover{
+	color: #cd486b;
+}
+.fa-at:hover{
+	color: #B23121;
+}
+.fa-facebook-square, .fa-instagram, .fa-at{
+	color: white;
+}
+.fab{
+	padding-right: 50px;
+}
+a:link {
+    color: white;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+a:active {
+    color: white;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

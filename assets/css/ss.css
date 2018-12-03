@@ -1,0 +1,89 @@
+.circle{
+	height: 240px;
+	width: 240px;
+	border: 2px solid black;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+}
+.rect{
+	height: auto;
+	width: 70%;
+	border: 2px solid black;
+	border-radius: 10px;
+	z-index: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: scroll;
+}
+.testimonial{
+	text-align: justify;
+}
+.circleltr{
+	position: relative;
+	left: 60px;
+}
+.rectltr{
+	position: relative;
+	right: 20px;
+}
+.ltr{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	margin: 0 auto;
+}
+.pltr{
+	display: flex;
+	align-self: flex-end;
+	padding-right: 20px;
+}
+.prtl{
+	padding: 0 0 0 20px;
+}
+.testimonialltr{
+	padding: 10px 20px 0 85px;
+}
+.rtl{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2px;
+}
+.testimonialrtl{
+	padding: 10px 150px 0 20px;
+}
+.circlertl{
+	position: relative;
+	right: 80px;
+}
+.rectrtl{
+	position: relative;
+	left: 60px;
+}
+img{
+	height: 236px;
+	width: 236px;
+	border-radius: 50%;
+}
+.imgmobile{
+	height: 200px;
+	width: 200px;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+.mobile{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: justify;
+	height:auto;
+	width: auto;
+	margin: 0;
+}
+
+
